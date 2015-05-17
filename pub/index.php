@@ -11,7 +11,7 @@ require_once '../lib/view.php';
 
 /** auth **/
 session_start();
-session_set_cookie_params(0, '/mvc3/');
+session_set_cookie_params(0, '/mvc/');
 if(!chkSession("role") || empty($_GET)){
 	$_GET['url'] = "login/index";
 }
