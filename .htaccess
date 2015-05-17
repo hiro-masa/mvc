@@ -3,6 +3,6 @@ Header set Cache-Control "max-age=2592000"
 </Files>
 
 RewriteEngine On
-RewriteBase /mvc3/
+RewriteBase /mvc/
 RewriteRule ^$ pub/ [L]
 RewriteRule (.*) pub/$1 [L]
