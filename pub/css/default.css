@@ -1,0 +1,22 @@
+body {
+	background-image: url("../img/bg_main.png");
+	background-repeat: repeat-x;
+	background-size: 100% 50px;
+	color: #594;
+
+}
+#login {
+	margin-top:25px;
+}
+iframe {
+	border: none;
+}
+.alert_red {
+	color: #e00;
+}
+.cpwrite {
+	position: fixed;
+	bottom: 1em;
+	width: 100%;
+	text-align: center;
+}
