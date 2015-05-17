@@ -1,6 +1,5 @@
 ## mvc
 
->###Purpose
+my template
 
-template for webapp
 
