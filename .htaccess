@@ -1,0 +1,8 @@
+<Files ~ ".(gif|jpe?g|png|ico|js|css|gz)$">
+Header set Cache-Control "max-age=2592000"
+</Files>
+
+RewriteEngine On
+RewriteBase /mvc3/
+RewriteRule ^$ pub/ [L]
+RewriteRule (.*) pub/$1 [L]
