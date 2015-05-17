@@ -1,0 +1,39 @@
+
+<div class="container">
+<div class="row">
+<div class="col-sm-4"> </div>
+<div class="col-sm-4">
+
+<form class="bs-component" id="login" name="lgin" method="post">
+<h3><?=LC($title)?></h3>
+<div class="form-group">
+    
+    <input class="form-control input-sm" type="text" id="inputSmall" name="uid" value="<?=$Post['uid']?>" placeholder="User ID">
+</div>
+<div class="form-group">
+    
+    <input class="form-control input-sm" type="password" id="inputSmall" name="upw" placeholder="Password">
+</div>
+<div class="form-group">
+
+  <button type="submit" class="btn btn-success"><?=LC("login")?></button>
+  <button type="reset" class="btn btn-default"><?=LC("cancel")?></button>
+  
+  <p class="alert_red"><?=LC($err)?></p>
+</div>
+<input type="hidden" name="token" value="<?=$token?>" />
+</form>
+</div>
+<div class="col-sm-4"> </div>
+</div>
+</div>
+<script type="text/javascript">
+window.onload = function(){
+	
+	if(window.parent.location != "<?=$topurl?>"){
+		window.parent.location.replace("<?=$topurl?>");
+	}
+	var flds = document.getElementsByTagName("INPUT");
+}
+
+</script>

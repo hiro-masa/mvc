@@ -1,0 +1,14 @@
+<!--[if lte IE 8]><script type="text/javascript" src="/mvc/js/getElementsByClassName.js"></script><![endif]-->
+<script type="text/javascript" src="/mvc3/js/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="/mvc3/js/bootstrap.min.js"></script>
+<?php
+if(isset($scripts)){
+	foreach ($scripts as $val){ 
+		echo '<script type="text/javascript" src="/mvc3/js/'. $val .'.js"></script>';
+	}
+}
+?>
+
+<div class="cpwrite">&copy; tomopro.local</div>
+</body>
+</html>
