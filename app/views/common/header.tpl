@@ -8,11 +8,11 @@
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="/mvc3/css/bootstrap.min.css" media="screen">
+<link rel="stylesheet" type="text/css" href="/mvc/css/bootstrap.min.css" media="screen">
 <title>{$title|default:APPNAME}</title>
 <meta http-equiv="X-FRAME-OPTIONS" content="SAMEORIGIN" />
-<link rel="StyleSheet" type="text/css" href="/mvc3/css/default.css">{if isset($styles)}{foreach from=$styles item=val} 
-<link rel="StyleSheet" type="text/css" href="/mvc3/css/{$val}.css">
+<link rel="StyleSheet" type="text/css" href="/mvc/css/default.css">{if isset($styles)}{foreach from=$styles item=val} 
+<link rel="StyleSheet" type="text/css" href="/mvc/css/{$val}.css">
 {/foreach}{/if}
 </head>
 <body>
